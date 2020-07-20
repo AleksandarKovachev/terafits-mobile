@@ -1,0 +1,41 @@
+name: terafits
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  get_it:
+  dartz:
+  shared_preferences:
+  retrofit:
+  provider:
+  data_connection_checker:
+  built_value:
+  cupertino_icons:
+  flutter_bloc:
+  equatable:
+  moor_flutter:
+  cached_network_image:
+  logger:
+  basic_utils:
+  progress_dialog:
+  fluttertoast:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  retrofit_generator:
+  moor_generator:
+  build_runner:
+  built_value_generator:
+  json_serializable:
+
+flutter:
+  uses-material-design: true
